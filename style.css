@@ -1,0 +1,104 @@
+body {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+
+.title {
+  background-image: url('../photo/bg-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top ;
+  width: 500px;
+  margin-right: 40px;
+}
+
+.title__wrapper {
+  margin-top: 110px;
+  background-color: #000000bf;
+}
+
+.title__text {
+  padding: 20px 0;
+  font-size: 44px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sign-up {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.sign-up__text {
+  font-size: 18px;
+  width: 550px;
+  margin-bottom: 40px;
+}
+
+.sign-up__text p{
+  margin-bottom: 20px;
+}
+
+.sign-up__text p:last-child {
+  margin-bottom: 0;
+}
+
+.sign-up__form {
+  width: 100%;
+  background-color: #0e0d0d;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.sign-up__form-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.input__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sign-up__form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.sign-up__form-input {
+  margin-bottom: 20px;
+  width: 215px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #362b2b;
+  border-radius: 5px;
+  padding: 0 5px;
+  color: #fff;
+}
+
+.sign-up__btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000425;
+  padding: 15px 45px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.sign-up__login a {
+  color: #fe0000;
+}
